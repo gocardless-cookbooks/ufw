@@ -2,6 +2,9 @@ ufw Cookbook CHANGELOG
 ======================
 This file is used to list changes made in each version of the ufw cookbook.
 
+v0.7.2
+------
+- Allow setting log level of firewall
 
 v0.7.0
 ------
