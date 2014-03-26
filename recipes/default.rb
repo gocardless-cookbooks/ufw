@@ -25,6 +25,10 @@ execute "ufw --force reset"
 
 firewall "ufw" do
   action :enable
+
+  if level = node['firewall']['log_level']
+    log_level level
+  end
 end
 
 if node['firewall']['default_ssh_rule']
