@@ -2,6 +2,9 @@ ufw Cookbook CHANGELOG
 ======================
 This file is used to list changes made in each version of the ufw cookbook.
 
+v0.7.6
+------
+- Rebase, merge in fix-recipes-databag-crash
 
 v0.7.4
 ------
